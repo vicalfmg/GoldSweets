@@ -1,129 +1,31 @@
-
-body {
-  background: darkblue;
+/* NAV */
+.section-nav {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  background-color: crimson;
 }
 
-/* Nav Bar*/
-
-
-
-.ftco-navbar-light {
-    background: transparent !important;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    right: 0;
-    z-index: 3;
-    padding: 0;
-  }
-
-  .ftco-navbar-light .navbar-brand {
-    color: #ffffff;
-
+.section-nav div {
+  width: 50%;
+}
+.nav-img img{
+  padding-left: 10vw;
+  width: 50%;
 }
 
-
-.ftco-navbar-light .navbar-brand img{
-    width: 50%;
-
+.nav ul{
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin-top: 7.5rem;
+  list-style: none;
+  color: white;
 }
 
-
-.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    
-  font-size: 14px;
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-weight: 400;
-  color: #ffffff;
-  opacity: 1 !important;
-}
-
-.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-  color: #ffffff;
+.nav ul li {
+  font-size: 2vw;
+  padding: 1rem;
 }
 
 
-
-.ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: white;
-    border-radius: 5px;
-}
- 
-/*
- this below written code will work when our page content goes more than screen size or when it is scrolled
- 
-*/
-
-.ftco-navbar-light.scrolled .nav-item.active > a {
-    color: crimson !important;
-}
-
-.ftco-navbar-light.scrolled .nav-item.cta > a {
-    color: #ffffff !important;
-    background: #c8a97e;
-    border: none !important;
-    border-radius: 0;
-
-}
-
-.ftco-navbar-light.scrolled .nav-item.cta > a span {
-    display: inline-block;
-    color: #ffffff !important;
-  }
-  
-.ftco-navbar-light.scrolled .nav-item.cta.cta-colored span {
-    border-color: #c8a97e;
-}
-
-.ftco-navbar-light.scrolled .nav-link {
-    padding-top: 0.7rem !important;
-    padding-bottom: 0.7rem !important;
-    color: #000000 !important;
-  }
-  
-.ftco-navbar-light.scrolled .nav-link.active {
-    color: #c8a97e !important;
-  }
-  
-.ftco-navbar-light.scrolled.awake {
-    margin-top: 0px;
-    transition: 0.3s all ease-out;
-  }
-  
-.ftco-navbar-light.scrolled.sleep {
-    transition: 0.3s all ease-out;
-  }
-  
-.ftco-navbar-light.scrolled .navbar-brand {
-    color: #000000;
-  }
-  
-.navbar-brand {
-    font-weight: 900;
-    font-size: 20px;
-  }
-
-
-
-  /* Carousel */
-
-  .owl-carousel {
-    position: relative;
-  }
-
-  .owl-carousel .owl-item {
-    opacity: 0.4;
-  }
-
-  .owl-carousel .owl-item.active {
-    opacity: 1;
-  }
-
-  .owl-carousel .owl-nav{
-    position: absolute;
-    top:50%;
-    width: 100%;
-  }
