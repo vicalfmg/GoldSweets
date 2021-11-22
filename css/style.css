@@ -1,24 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
 /* NAV */
-.section-nav {
+.header {
   display: flex;
   flex-direction: row;
-  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 38%;
+  padding: 1rem;
   background-color: crimson;
 }
 
-.section-nav div {
-  width: 50%;
+.header div {
+  width: 45%;
 }
 .nav-img img{
   padding-left: 10vw;
-  width: 50%;
+  padding-bottom: 10vh;
+  width: 40%;
+  
 }
 
 .nav ul{
   display: flex;
   flex-direction: row;
-  float: right;
-  margin-top: 7.5rem;
+  position: absolute;
+  align-items: center;
+  margin-top: 8rem;
+  right: 10rem;
   list-style: none;
   color: white;
 }
@@ -27,5 +42,36 @@
   font-size: 2vw;
   padding: 1rem;
 }
+
+
+/* Home Section */
+
+.section {
+  background: url(/GoldSweets/GoldSweets/imagenes/IMG_20211018_075325.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  height: 110vh;
+  margin-top: 42vh;
+}
+
+.section h1{
+  padding: 5rem;
+  padding-top: 15vw;
+  font-size: 2rem;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.home-btn button{
+
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  color: whitesmoke;
+}
+
+
+
 
 
