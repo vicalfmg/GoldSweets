@@ -47,12 +47,12 @@ body {
 /* Home Section */
 
 .section {
-  background: url(/GoldSweets/GoldSweets/imagenes/IMG_20211018_075325.jpg);
+  background: url(/imagenes/IMG_20211018_075325.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
   height: 110vh;
-  margin-top: 42vh;
+  margin-top: 40vh;
 }
 
 .section h1{
@@ -69,6 +69,39 @@ body {
   background: none;
   border: none;
   color: whitesmoke;
+}
+
+
+/* About Us Section */
+
+.section-about {
+  display: flex;
+  flex-direction: row;
+  margin: 10%;
+}
+
+.info {
+  margin-right: 4rem;
+  width: 60%;
+  height: 15vw;
+  text-align: center;
+  background-color: crimson;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+
+.info h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.section-img {
+  width: 50%;
+}
+
+.section-img img {
+  width: 100%;
+  height: 100%;
 }
 
 
