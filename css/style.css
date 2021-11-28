@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 0;
+ 
 }
 
 
@@ -117,30 +117,43 @@ body {
 /*Most Popular Cake Section*/
 
 .section-cakes {
-  background-color: crimson;
-  margin: 0;
-}
-
-.grid-img {
-  display: grid;
-  gap: 1rem;
-  grid-auto-rows: 22.5rem;
-  grid-template-columns: repeat(autofill, minmax(min(100%, 25rem), 1fr));
-}
-
-
-.divs-label {
   display: flex;
   flex-direction: row;
-  background-color: darkblue;
-  margin: 2rem;
- 
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: crimson;
+}
+
+.divs-label {
+  display: inherit;
+  flex-wrap: wrap;
+  margin: 5%;
+  width: 20vw;
+  border-radius: 10px;
 }
 
 .divs-label img{
   width: 100%;
-  height: 50%;
+  bottom: 0;
+  border-radius: 10px 10px 0 0;
 }
+
+.labels {
+  margin: 0;
+  width: 100%;
+  height: 8vh;
+  text-align: center;
+  background-color: lightgray;
+  font-weight: bold;
+  border-radius: 0 0 10px 10px;
+}
+
+.labels h3 {
+  font-size: 1rem;
+}
+
+
+
 
 
 
