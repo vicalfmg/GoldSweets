@@ -80,9 +80,8 @@ body {
 
 .info {
   margin-right: 4rem;
-  padding: 2rem;
   width: 60%;
-  height: 50%;
+  height: 30vw;
   text-align: center;
   background-color: crimson;
   border-radius: 10px;
@@ -103,6 +102,7 @@ body {
 
 .section-img {
   width: 50%;
+  height: 35vw;
   box-shadow: 10px 12px 5px black;
 }
 
@@ -167,12 +167,52 @@ body {
 
 /* Contact Section */
 
+.contact-section {
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+  background-color: lightgray;
+}
+
+.section-img-contact {
+  width: 60%;
+  text-align: center;
+}
+
 .section-img-contact img{
-  width: 30%;
-  margin: 10%;
-  height: 35vw;
+  width: 60%;
   box-shadow: 10px 10px 5px black;
 }
+
+.social-media {
+  display: inherit;
+  flex-direction: column;
+  padding: 1%;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  color: crimson;
+}
+
+.social-media h1 {
+  font-size: 1.5rem;
+}
+
+.links {
+  padding: 1rem;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+
+.links a img{
+  width: 15%;
+  padding: 1%;
+}
+
+
 
 
 
