@@ -8,6 +8,7 @@
         href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>GoldSweets</title>
 </head>
 <body>
@@ -20,33 +21,44 @@
             <img src="/Gold_Sweets_Blanco.png" alt="" srcset="">
         </div>
 
-        <nav class="nav">
+    
+        <div class="panel">
 
-            <ul>
-                <li>Inicio</li>
-                <li>Nosotros</li>
-                <li>Menu</li>
-            </ul>
-        </nav>
+            <span class="nav-bar" id="btnMenu"  style="font-size: 1.5rem; color: whitesmoke">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+
+                
+            <nav class="nav">
+
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#menu">Menú</a>
+                <a href="#social-media">Redes</a>
+    
+            </nav>
+
+        </div>
+
+
     </header>
 
     <!-- Home Section -->
 
-    <section  class="section">
+    <section  class="section" id="inicio">
         <h1>Productos de Calidad</h1>
         <div class="home-btn">
-            <button>Comunicate con nosotros</button>
+            <button id="section-btn">Comunicate con nosotros</button>
         </div>
     </section>
 
 
     <!-- About us Section -->
 
-    <section class="section-about">
+    <section class="section-about" id="nosotros">
 
         <div class="info">
             <h1>Mi Historia</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quidem quod doloribus asperiores quasi, minus minima exercitationem iure, illum nihil vero at fugiat. Blanditiis doloribus voluptatibus, repellendus libero est adipisci.</p>
             
             <a href="#">Leer más</a>
 
@@ -60,7 +72,7 @@
 
     <!-- Most Popular Cakes Section -->
 
-    <section class="section-cakes">
+    <section class="section-cakes" id="menu">
         
         <h1 class="titles">
             Nuestras Tortas
@@ -116,7 +128,7 @@
     
     <!--Contact Section -->
 
-    <footer class="contact-section">
+    <footer class="contact-section" id="social-media">
 
         <div class="section-img-contact">
             <img src="/IMG_20211011_171145.jpg" alt="" srcset="">
@@ -171,7 +183,8 @@
     
     
     <!-- Scripts -->
-
+    <script src="js/main.js"></script>
+    <script src="js/menu_hamburguesa.js"></script>
 
 </body>
 </html>

@@ -7,11 +7,8 @@ btn.addEventListener("click" , function(e) {
     alert("Hola mundo");
 });
 
-var innerWidth = window.innerWidth;
 
-if ( innerWidth < 750) {
-    var nav = document.getElementById("nav-id");
-    nav.style.display= "none";
 
-}
+
+
 
