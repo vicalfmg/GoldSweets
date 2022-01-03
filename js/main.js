@@ -1,11 +1,15 @@
-/*Practicando con el DOM */ 
 
-var btn = document.getElementById("section-btn");
+const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-links');
 
-btn.addEventListener("click" , function(e) {
-    e.preventDefault();
-    alert("Hola mundo");
-});
+    burger.addEventListener('click', () => {
+        nav.classList.toggle('.nav-active');
+    });
+
+}
+
+navSlide();
 
 
 
