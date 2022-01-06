@@ -29,6 +29,11 @@ nav {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 20px;
+  width: 40%;
+}
+
+.logo-img img {
+  width: 20%;
 }
 
 .nav-links {
@@ -59,6 +64,7 @@ nav {
   height: 3px;
   background-color: whitesmoke;
   margin: 5px;
+  transition: all 0.3s ease;
 }
 
 
@@ -69,7 +75,7 @@ nav {
 .section {
   display: flex;
   flex-direction: column;
-  background: url(/IMG_20211011_174638.jpg);
+  background: url(/IMG_20211018_075325.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -313,12 +319,13 @@ nav {
     top: 8vh;
     right: 0px;
     height: 92vh;
-    width: 50%;
+    width: 40%;
+    transform: translateX(100%);
+    background-color: crimson;
+    transition: transform 0.8s ease;
   }
 
-  .nav-links li {
-    opacity: 0;
-  }
+  
 
   .burger {
     display: block;
@@ -381,6 +388,36 @@ nav {
 
 
 .nav-active {
+  position:absolute;
   transform: translateX(0%);
-  transition: transform 0.5s ease-in;
+  background-color: crimson;
+}
+
+.nav-active li {
+  padding: 0;
+}
+
+@keyframes navLinkFade{
+  
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+
+}
+
+.toggle .line2 {
+  opacity: 0;
+  
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
 }
