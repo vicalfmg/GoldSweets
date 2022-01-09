@@ -194,6 +194,7 @@ nav {
   box-shadow: 10px 10px 5px gray;
 }
 
+
 .divs-label img{
   width: 100%;
   bottom: 0;
@@ -213,6 +214,15 @@ nav {
 .labels h3 {
   font-size: 1rem;
   color: crimson;
+}
+
+.divs-label:hover {
+  display: inherit;
+  margin: 3rem;
+  width: 20%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px gold;
+  transition: all 0.5s ease-in-out;
 }
 
 /* Contact Section */
@@ -323,7 +333,7 @@ nav {
     align-items: center;
     position: absolute;
     top: 8vh;
-    right: 0px;
+    right: 0;
     height: 60vh;
     width: 40%;
     transform: translateX(100%);
@@ -366,6 +376,17 @@ nav {
     height: 30%;
     transform: translateX(-10%);
   }
+
+  .divs-label:hover {
+    display: inherit;
+    margin: 3rem;
+    flex-wrap:wrap;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px gold;
+    transition: all 0.5s ease-in-out;
+  }
+  
 
 
   .contact-section {
