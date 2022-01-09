@@ -187,12 +187,14 @@ nav {
 
 .divs-label {
   display: inherit;
-  flex-wrap: wrap;
-  margin: 3rem;
+  margin: 1rem;
+  flex-wrap:wrap;
   width: 20%;
   border-radius: 10px;
-  box-shadow: 10px 10px 5px gray;
+  box-shadow: 5px 5px 2px gray;
+  transition: all 0.5s ease-in-out;
 }
+
 
 
 .divs-label img{
@@ -218,12 +220,14 @@ nav {
 
 .divs-label:hover {
   display: inherit;
-  margin: 3rem;
+  margin: 1rem;
+  flex-wrap:wrap;
   width: 20%;
   border-radius: 10px;
-  box-shadow: 10px 10px 5px gold;
+  box-shadow: 5px 5px 2px gold;
   transition: all 0.5s ease-in-out;
 }
+
 
 /* Contact Section */
 
@@ -361,29 +365,29 @@ nav {
   }
 
   .section-cakes {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
   .titles {
     font-size: 1.5rem;
     text-align: center;
-    transform: translateX(-5%);
+    transform: translateX(0%);
   }
 
   .divs-label {
-    width: 40%;
+    width: 30%;
     height: 30%;
-    transform: translateX(-10%);
+    transform: translateX(0%);
   }
 
   .divs-label:hover {
     display: inherit;
-    margin: 3rem;
+    margin: 1rem;
     flex-wrap:wrap;
     width: 30%;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px gold;
+    box-shadow: 5px 5px 2px gold;
     transition: all 0.5s ease-in-out;
   }
   
