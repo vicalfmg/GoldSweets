@@ -54,6 +54,12 @@ nav {
   font-size: 14px;
 }
 
+
+.nav-links a:hover {
+  color: gold;
+}
+
+
 .burger {
   display: none;
 }
@@ -318,7 +324,7 @@ nav {
     position: absolute;
     top: 8vh;
     right: 0px;
-    height: 92vh;
+    height: 60vh;
     width: 40%;
     transform: translateX(100%);
     background-color: crimson;
