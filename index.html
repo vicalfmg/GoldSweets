@@ -64,7 +64,7 @@
 
     <section class="section-about" id="nosotros">
 
-        <div class="info">
+        <div class="info" id="btn-info">
             <h1>Mi Historia</h1>
             
             <a href="#">Leer más</a>
@@ -161,11 +161,11 @@
                 <h2>Consultas</h2>
 
                 <div class="inputs">
-                    <input type="text" name="Nombre" id="" placeholder="Ingresa Tu Nombre">
+                    <input type="text" name="Nombre" id="" placeholder="Ingresa Tu Nombre" title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
                 </div>
 
                 <div class="inputs">
-                    <input type="email" name="Nombre" id="" placeholder="Ingresa Tu Email">
+                    <input type="email" name="Email" id="" placeholder="Ingresa Tu Email" title="" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
                 </div>
 
                 <div class="inputs">
@@ -173,7 +173,7 @@
                 </div>
 
                 <div class="inputs">
-                    <textarea name="" id="" cols="22" rows="4" placeholder="Danos tu Opinión"></textarea>
+                    <textarea name="" id="" cols="22" rows="4" placeholder="Danos tu Opinión" pattern="^.{1,255}$"></textarea>
                 </div>
 
                 <div>

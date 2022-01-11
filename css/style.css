@@ -118,6 +118,8 @@ nav {
 .section-about {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
   margin: 5%;
 }
 
@@ -125,41 +127,40 @@ nav {
 
 .info {
   margin: 3.5rem;
-  width: 50%;
+  width: 20%;
   height: 10%;
   text-align: center;
   background-color: crimson;
   border-radius: 10px;
   color: whitesmoke;
-  box-shadow: 10px 10px 5px black;
+  box-shadow: 5px 5px 5px black;
 }
 
 .info h1 {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 0.8rem;
 }
 
 .info p {
-  font-size: 1rem;
-  margin: 1rem;
+  font-size: 0.5rem;
 }
 
 .info a {
-  font-size: 1rem;
+  font-size: 0.5rem;
   color: whitesmoke;
   text-decoration: none;
 }
 
 .section-img {
-  width: 40%;
-  height: 40%;
-  box-shadow: 10px 12px 5px black;
+  width: 20%;
+  height: 20%;
+  box-shadow: 5px 5px 5px black;
 }
 
 .section-img img {
   width: 100%;
   height: 100%;
-  box-shadow: 10px 8px 5px black;
+  box-shadow: 5px 5px 5px black;
   
 }
 
@@ -239,21 +240,21 @@ nav {
 }
 
 .section-img-contact {
-  width: 50%;
-  margin: 5%;
+  width: 70%;
+  margin: 5rem;
   text-align: center;
 }
 
 .section-img-contact img{
-  margin: 10%;
-  width: 60%;
-  height: 75%;
-  box-shadow: 10px 10px 5px black;
+  width: 50%;
+  height: 100%;
+  box-shadow: 5px 5px 5px black;
 }
 
 .social-media {
   display: inherit;
   flex-direction: column;
+  margin: 5%;
   padding: 1%;
   width: 50%;
   height: 50%;
@@ -262,7 +263,7 @@ nav {
 }
 
 .social-media h1 {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .links {
@@ -286,7 +287,7 @@ nav {
 }
 
 .form h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .form button {
@@ -396,6 +397,7 @@ nav {
   .contact-section {
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
   }
 
 
@@ -405,7 +407,7 @@ nav {
   }
 
   .inputs input, textarea{
-    width: 60%;
+    width: 80%;
     font-size: 0.5rem; 
   }
 
