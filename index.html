@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@
         <nav>
             <div class="logo">
                 <div class="logo-img">
-                    <img src="/Gold_Sweets_Blanco.png" alt="">
+                    <img src="/imagenes/Gold_Sweets_Blanco.png" alt="">
                 </div>
             </div>
 
@@ -72,7 +72,7 @@
         </div>
 
         <div class="section-img">
-            <img src="/IMG_20211011_174521.jpg" alt="" srcset="">
+            <img src="/imagenes/IMG_20211011_174521.jpg" alt="" srcset="">
         </div>
 
     </section>
@@ -86,14 +86,14 @@
         </h1>
         
         <div class="divs-label">  
-            <img src="/IMG_20211011_174407.jpg" alt="" srcset="">
+            <img src="/imagenes/IMG_20211011_174407.jpg" alt="" srcset="">
             <div class="labels">
                 <h3>Chocolate</h3>
             </div>
         </div>
 
         <div class="divs-label">  
-            <img src="/IMG_20211011_174110.jpg" alt="" srcset="">
+            <img src="/imagenes/IMG_20211011_174110.jpg" alt="" srcset="">
             <div class="labels">
                 <h3>Red Velvet</h3>
             </div>
@@ -101,7 +101,7 @@
 
 
         <div class="divs-label">  
-            <img src="/IMG_20211018_075306.jpg" alt="" srcset="">
+            <img src="/imagenes/IMG_20211018_075306.jpg" alt="" srcset="">
             <div class="labels">
                 <h3>Chocolate y Nueces</h3>
             </div>
@@ -109,14 +109,14 @@
 
 
         <div class="divs-label">  
-            <img src="/IMG_20211018_075325.jpg" alt="" srcset="">
+            <img src="/imagenes/IMG_20211018_075325.jpg" alt="" srcset="">
             <div class="labels">
                 <h3>Frutos Rojos</h3>
             </div>
         </div>
 
         <div class="divs-label">  
-            <img src="/IMG_20211011_174638.jpg" alt="" srcset="">
+            <img src="/imagenes/IMG_20211011_174638.jpg" alt="" srcset="">
             <div class="labels">
                 <h3>Limón</h3>
             </div>
@@ -124,7 +124,7 @@
 
 
         <div class="divs-label">  
-            <img src="/IMG_20211011_174137.jpg" alt="" srcset="">
+            <img src="/imagenes/IMG_20211011_174137.jpg" alt="" srcset="">
             <div class="labels">
                 <h3>Vainilla</h3>
             </div>
@@ -138,7 +138,7 @@
     <footer class="contact-section" id="social-media">
 
         <div class="section-img-contact">
-            <img src="/IMG_20211011_171145.jpg" alt="" srcset="">
+            <img src="/imagenes/IMG_20211011_171145.jpg" alt="" srcset="">
         </div>
 
         <div class="social-media">
@@ -161,23 +161,31 @@
                 <h2>Consultas</h2>
 
                 <div class="inputs">
-                    <input type="text" name="Nombre" id="" placeholder="Ingresa Tu Nombre" title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                    <input type="text" name="Nombre" id="" placeholder="Escribe Tu Nombre" title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
                 </div>
 
                 <div class="inputs">
-                    <input type="email" name="Email" id="" placeholder="Ingresa Tu Email" title="" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+                    <input type="email" name="Email" id="" placeholder="Escribe Tu Email" title="Por favor, ingresar correo válido" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
                 </div>
 
                 <div class="inputs">
-                    <input type="text" name="Nombre" id="" placeholder="Ingresa Tu Telefono">
+                    <input type="text" name="Teléfono" id="" placeholder="Escribe Tu Teléfono" title="Escribe tu numero sin guiones ni espacios" required>
                 </div>
 
                 <div class="inputs">
-                    <textarea name="" id="" cols="22" rows="4" placeholder="Danos tu Opinión" pattern="^.{1,255}$"></textarea>
+                    <textarea name="Comentarios" id="" cols="22" rows="4" placeholder="Danos tu Opinión" pattern="^.{1,255}$" title="Tu Comentario no debe exceder los 255 caracteres"></textarea>
                 </div>
 
-                <div>
-                    <button type="submit">Enviar</button>
+                <div class="submit-btn" >
+                    <input type="submit" value="Enviar">
+                </div>
+
+                <div class="contact-form-loader none">
+                    <img src="/SVG-Loaders-master/svg-loaders/three-dots.svg" alt="Cargando">
+                </div>
+
+                <div class="contact-form-response none">
+                    <p>Los datos han sido enviados</p>
                 </div>
 
                 
