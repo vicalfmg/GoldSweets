@@ -13,7 +13,7 @@ export default function contactFormValidations() {
         const $span = d.createElement("span");
         $span.id = input.name;
         $span.textContent = input.title;
-        $span.classList.add("contact-form.error");
+        $span.classList.add("contact-form-error", "none");
         input.insertAdjacentElement("afterend", $span);
     })
     

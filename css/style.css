@@ -242,13 +242,13 @@ nav {
 
 .section-img-contact {
   width: 70%;
-  margin-top: 10%;
+  margin-top: 20%;
   text-align: center;
 }
 
 .section-img-contact img{
   width: 50%;
-  height: 80%;
+  height: 50%;
   box-shadow: 5px 5px 5px black;
 }
 
@@ -284,11 +284,10 @@ nav {
 }
 
 .form {
-  display: inherit;
+  display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  margin: 1rem;
+  width: 100%;
   --form-ok-color: #4caf50;
   --form-error-color: #f44336;
 }
@@ -317,11 +316,12 @@ nav {
 }
 
 .contact-form-error {
-  margin-top: -1rem;
+  margin-top: 0;
+  padding: 1rem;
   font-size: 80%;
-  background-color: var(--form-error-color);
-  color: #fff;
-  transition: all 800ms ease;
+  background-color: var(--form-error-color);  
+  color: whitesmoke;
+  transition: all 1500ms ease-out;
 }
 
 .contact-form-error.is-active {
@@ -333,19 +333,19 @@ nav {
   display: none;
 }
 
-
-
 .inputs {
-  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
 }
 
 .inputs input, textarea {
   color: red;
   font-size: 1rem;
   font-family: sans-serif;
-  font-weight: bolder;
-  padding: 0.5rem;
-  width: 60%;
+  padding: 1rem;
+  width: 100%;
   text-align: center;
 }
 
@@ -469,7 +469,7 @@ nav {
   }
 
   .inputs input, textarea{
-    width: 80%;
+    width: 100%;
     font-size: 0.5rem; 
   }
 
