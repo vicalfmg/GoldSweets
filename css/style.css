@@ -295,6 +295,7 @@ nav {
 
 .form > * {
   padding: 0.5rem;
+  margin: 1rem auto;
   display: block;
   width: 100%;
 }
@@ -307,6 +308,33 @@ nav {
   resize: none;
 }
 
+.form [required]:valid {
+  border: thin solid var(--form-ok-color);
+}
+
+.form [required]:invalid {
+  border: thin solid var(--form-error-color);
+}
+
+.contact-form-error {
+  margin-top: -1rem;
+  font-size: 80%;
+  background-color: var(--form-error-color);
+  color: #fff;
+  transition: all 800ms ease;
+}
+
+.contact-form-error.is-active {
+  display: block;
+  animation: show-message 1s 1 normal 0s ease-in-out both;
+}
+
+.none {
+  display: none;
+}
+
+
+
 .inputs {
   padding: 0.5rem;
 }
@@ -314,12 +342,13 @@ nav {
 .inputs input, textarea {
   color: red;
   font-size: 1rem;
+  font-family: sans-serif;
   font-weight: bolder;
-  border-radius: 5px;
+  padding: 0.5rem;
+  width: 60%;
   text-align: center;
-  border-color: crimson;
-  border-style:double;
 }
+
 
 .submit-btn {
   margin: 1%;
@@ -340,6 +369,13 @@ nav {
 .contact-form-loader img {
   width: 10%;
 }
+
+
+
+
+/* Form validation */
+
+
 
 
 /* Media Queries */
@@ -479,4 +515,16 @@ nav {
 }
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@keyframes show-message {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
 }
