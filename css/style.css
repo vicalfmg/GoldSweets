@@ -319,9 +319,9 @@ nav {
   margin-top: 0;
   padding: 1rem;
   font-size: 80%;
-  background-color: var(--form-error-color);  
+  background-color: var(--form-error-color);
   color: whitesmoke;
-  transition: all 1500ms ease-out;
+  transition: all 1000ms ease-out;
 }
 
 .contact-form-error.is-active {

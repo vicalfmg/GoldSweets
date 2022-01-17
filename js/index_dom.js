@@ -1,5 +1,5 @@
 const d = document;
 
-import contactFormValidations, {PI} from "./validaciones_formularios.js"
+import contactFormValidations from "./validaciones_formularios.js";
 
 contactFormValidations();
